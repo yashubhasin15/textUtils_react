@@ -34,7 +34,7 @@ function App() {
     <div>
     {/* <Router> */}
       <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode}/>
-      {copyAlert && <CopyAlert />}
+      <CopyAlert alert={copyAlert}/>
       <div className="container">
         {/* <Switch> */}
           {/* <Route exact path="/about"> */}
